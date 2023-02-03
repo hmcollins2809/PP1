@@ -6,6 +6,7 @@
 body {
 
     margin: 0 auto;
+
 }
 
 .homepage-container {
@@ -21,7 +22,7 @@ body {
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 150px 2fr 1fr 2fr 100px;
+    grid-template-rows: 150px 1fr 1fr 1fr 100px;
     
     gap: 10px;
 
@@ -41,6 +42,22 @@ body {
     grid-column-start: 1;
     grid-column-end: 4;
 
+}
+
+.hero-image-container {
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+}
+
+.coming-soon-container {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.testimonials-container {
+    grid-column-start: 1;
+    grid-column-end: 4;
 }
 
 .footer {
@@ -103,9 +120,9 @@ h2 {
 
 #hero-image {
 
-    height: 800px;
+    height: 600px;
     width: 100%;
-    background-color: lightgoldenrodyellow;
+    background-color: blanchedalmond;
     background-image: url("../images/pexels-acharaporn-kamornboonyarush-1028704.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -121,11 +138,43 @@ h2 {
     background-color: lightgoldenrodyellow;
     font-weight: 400px;
     text-align: center;
-    font-size: xx-large;
-    padding: 50px;
+    font-size: x-large;
+    padding: 30px;
     color: darkolivegreen;
 
 }
+
+.testimonials-container h1 {
+
+    text-align: center;
+    font-size: xx-large;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 900px;
+    line-height: 1.25;
+    text-decoration: underline;
+}
+
+.testimonial-box {
+
+    height: 300px;
+    width: 30%;
+    display: inline-block;
+    margin: 20px;
+    background-color: rgba(250, 218, 221, 0.3);
+    border: solid 4px darkolivegreen;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 20px;
+    overflow: scroll;
+}
+
+.testimonial-box h2 {
+
+    padding: 10px;
+
+}
+
 
 /*footer*/
 
