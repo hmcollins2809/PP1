@@ -21,7 +21,7 @@ body {
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 50px 2fr 1fr 2fr 100px;
+    grid-template-rows: 150px 2fr 1fr 2fr 100px;
     
     gap: 10px;
 
@@ -43,6 +43,11 @@ body {
 
 }
 
+.footer {
+
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
 
 /* headings, logo and nav bar styling */
 
@@ -92,4 +97,57 @@ h2 {
 
 .menu a :hover {
     border-bottom: 1px solid darkolivegreen;
+}
+
+/*home page*/
+
+#hero-image {
+
+    height: 800px;
+    width: 100%;
+    background-color: lightgoldenrodyellow;
+    background-image: url("../images/pexels-acharaporn-kamornboonyarush-1028704.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: fixed;
+}
+
+#cafe-box {
+
+    box-sizing: border-box;
+    height: 200px;
+    width: 100%;
+    border: double 10px darkolivegreen; 
+    background-color: lightgoldenrodyellow;
+    font-weight: 400px;
+    text-align: center;
+    font-size: xx-large;
+    padding: 50px;
+    color: darkolivegreen;
+
+}
+
+/*footer*/
+
+footer {
+    height: 100px; 
+    width: 100%;
+    background-color: antiquewhite;
+    color: darkolivegreen;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+
+}
+
+.social-media-links {
+
+    list-style: none;
+    line-height: 20px;
+    float: right;
+    margin: auto;
+    padding-right: 20px;
+    padding-top: 20px;
+    color: darkolivegreen;
+
 }
